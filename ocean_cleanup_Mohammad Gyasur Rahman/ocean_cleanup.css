@@ -1,0 +1,409 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+.image1 figure img {
+	max-width: 100%;
+
+}
+
+.main-wrapper {
+	max-width: 913px;
+	margin: 0 auto;
+  position: relative;
+}
+
+.para1 {
+	padding: 1px 135px;
+	display: block;
+}
+
+.para2 {
+	padding: 0px 135px;
+	display: block;
+}
+
+.para3 {
+	padding: 5px 135px;
+	display: block;
+}
+
+.quote {
+	text-align: -webkit-center;
+	color: turquoise;
+	text-decoration: none;
+	font-size: xx-large;
+}
+
+.oceanCleanup,
+.riverInterception,
+.plasticRecycle {
+	padding: 0px 135px;
+	display: block;
+}
+
+.plasticRecycle {
+	padding-bottom: 20px;
+}
+
+.head {
+	width: 100%;
+	background: url(http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8018/ocean_cleanup/resources/ocean.jpg);
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 350px;
+	position: relative;
+}
+
+/* These code(line 69-122) is for navigation bar */
+.nav {
+	background: rgba(0, 0, 0, 0.4);
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	color: white;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+nav ul#list1 li {
+	display: inline-block;
+	margin: -11px;
+	padding: 0.5em 2em;
+	position: relative;
+}
+nav ul#list1 li ul {
+  display: none;
+	color: #fff;
+	position: absolute;
+	top: 75px;
+	left: 0;
+  max-width: 200px;
+  white-space: nowrap;
+}
+ul, h1{
+  margin: 0;
+  padding: 0;
+}
+nav ul#list1 li a {
+  text-decoration: none;
+	color: #fff;
+  padding: 20px;
+  display: block;
+}
+nav ul#list1 li:hover ul{
+  display: block;
+}
+nav ul#list1 li ul li {
+	color: #fff;
+	position: relative;
+	display: block !important;
+}
+nav ul#list1 li ul li a {
+	color: #fff;
+	text-decoration: none;
+  padding: 5px 12px;
+  color: #000;
+}   
+.calc {
+  position: absolute;
+  right: -215px;
+  top: 100%;
+  max-width: 290px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 174, 0.947);
+  padding-left: 15px;
+  padding-top: -68px;
+  padding-bottom: 2%;
+  height: -1px;
+  float: right;
+  padding-right: -2px;
+  margin-block: -1208px;
+  min-height: 900px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);
+}
+
+
+#footer {
+	width: 100vw;
+	background: url(http://homepages.cs.ncl.ac.uk/harold.fellermann/csc8018/ocean_cleanup/resources/ocean.jpg);
+	text-align: center;
+	background-size: 100%;
+	background-position: center;
+	padding: 4rem;
+	background-repeat: no-repeat;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 22px;
+
+}
+
+
+.h1 {
+	color: white;
+  width: 100%;
+  position: absolute;
+  text-shadow: 3px 5px 7px #504646;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+#sh1 {
+	visibility: hidden;
+}
+
+.his-head {
+	margin-bottom: -35px;
+	margin-top: 30px;
+}
+
+.starting {
+	font-style: italic;
+}
+
+#tedx {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#list1 {
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+
+.image1 {
+	display: block;
+	float: left;
+	max-width: 249px;
+	padding: 8px;
+	transform: rotate(358deg);
+	background-color: #fff;
+	margin-right: 35px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	border: 1px solid #ddd;
+	margin-block: 10px;
+}
+
+.image2 {
+	display: block;
+	float: right;
+	max-width: 230px;
+	padding: 8px;
+	transform: rotate(2deg);
+	background-color: #fff;
+	margin-right: -14px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+	border: 1px solid #ddd;
+	margin-top: 23px;
+	margin-left: 25px;
+}
+
+.image3 {
+	margin-bottom: 55px;
+	display: block;
+	float: left;
+	max-width: 249px;
+	padding: 8px;
+	transform: rotate(358deg);
+	background-color: #fff;
+	margin-right: 35px;
+	box-shadow: 0 5px 10px 0 rgb(0 0 0 / 50%);
+	border: 1px solid #ddd;
+	margin-block: 23px;
+	height: 180px;
+}
+
+.paragraph9 {
+	margin-top: -23px;
+}
+
+.support {
+	margin-block: 0px;
+}
+
+.image4 {
+	display: block;
+	float: right;
+	max-width: 230px;
+	padding: 8px;
+	transform: rotate(2deg);
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 50%);
+	border: 1px solid #ddd;
+	margin-top: 47px;
+	margin-left: 34px;
+	margin-right: 24px;
+}
+
+#i2 {
+	display: block;
+	padding: 4em, 2em, 4em, 4em;
+	width: 100%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+#i3,
+#i5 {
+	display: block;
+	padding: 4em, 2em, 4em, 4em;
+	width: 100%;
+	height: 40%;
+	float: right;
+	background-color: white;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+#i4 {
+	display: block;
+	padding: 4em, 2em, 4em, 4em;
+	width: 100%;
+	height: 40%;
+	float: left;
+	background-color: white;
+	margin-bottom: 28px;
+}
+
+.fc1,
+.fc3,
+.fc2,
+.fc4 {
+	display: block;
+	text-align: right;
+}
+
+
+#p3 {
+	display: block;
+	padding: 0.5em;
+}
+
+.riverHead {
+	margin-top: 30px;
+	margin-bottom: -5px;
+}
+
+
+.table {
+	border-bottom: 1px solid #ddd;
+	max-width: 473px;
+	margin: 0 auto;
+}
+
+#tbl_caption {
+	padding: 10px 0;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+table td {
+	border-bottom: 1px solid #000;
+	padding: 5px;
+
+}
+
+table {
+	border-spacing: 0px;
+
+}
+
+tr:last-child td {
+	border-bottom: 2px solid #000;
+}
+
+
+div.fkc,
+.dcpc,
+.blc,
+.ypfc {
+
+	display: block;
+	width: 80%;
+	margin-left: 10px;
+	margin-right: 80px;
+	padding-bottom: 20px;
+}
+
+h2,
+.fc1,
+.fc2,
+.fc3,
+.fc4,
+.oc,
+.riverHead,
+.pr {
+	font-family: 'Special Elite', cursive;
+}
+
+h2 {
+	margin-top: 40px;
+}
+
+#p2 {
+	margin-block: 25px;
+}
+
+.fc1,
+.fc2,
+.fc3,
+.fc4 {
+	font-size: smaller;
+}
+
+.paragraph1,
+.paragraph2,
+.paragraph3,
+.paragraph4,
+.paragraph5,
+.paragraph6,
+.paragraph7,
+.paragraph8,
+.paragraph9,
+.paragraph10,
+.paragraph11,
+.paragraph12,
+.paragraph13,
+.paragraph14 {
+	font-family: 'EB Garamond', serif;
+	font-size: large;
+}
+
+.Tab1 {
+  FONT-SIZE: 83PX;
+}
+
+.Tab2 {
+  FONT-SIZE: 83PX;
+
+
+}
+
+.Tab3 {
+  FONT-SIZE: 83PX;
+  FONT-WEIGHT: BOLDER;
+
+}
+.wiki{
+  color: black;
+}
